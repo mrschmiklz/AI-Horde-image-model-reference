@@ -72,6 +72,35 @@
         "available": false,
         "size_on_disk_bytes": 4265380512
     },
+    "wowXL": {
+        "name": "WoW_XL 420 (SDXL)",
+        "type": "ckpt",
+        "description": "SDXL Model that doesn't require a refiner.",
+        "version": "2.1",
+        "style": "generalist",
+        "nsfw": false,
+        "download_all": true,
+        "config": {
+            "download": [
+                {
+                    "file_name": "wowXL420_v30DiffVAE.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/273128",
+                    "sha256sum": "9C57A8460C0E0179E684136461076BFEF527F2C1E44FFBA64B43E62527D8E37D"
+                }
+            ]
+        },
+        "purpose": "image_generation",
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "inpainting": false,
+        "baseline": "stable_diffusion_xl",
+        "homepage": "https://civitai.com/models/147933?modelVersionId=273128",
+        "size_on_disk_bytes": 6939227922
+    },
     "waifu_diffusion": {
         "name": "waifu_diffusion",
         "baseline": "stable diffusion 1",
