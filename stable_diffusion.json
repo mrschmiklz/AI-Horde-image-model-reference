@@ -72,8 +72,8 @@
         "available": false,
         "size_on_disk_bytes": 4265380512
     },
-    "wowXL": {
-        "name": "WoW_XL 420",
+    "wowXL420": {
+        "name": "wowXL420",
         "type": "ckpt",
         "description": "General SDXL Model that doesn't require a refiner.",
         "version": "3",
